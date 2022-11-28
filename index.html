@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPAM Battle</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="banner.png" style="width: 50%; height: auto; margin-left: 25%;">
+
+    <div id="endScore"></div>
+    <div class="circle" id="start" style="margin-left: 35%; background-color: #0b4d0b; color: #1cff559f;">START</div>
+    
+    <div class="hud" style="margin-left: 5%;">
+        <div class="score" style="margin-left: 14%; opacity: 0;" id="aScore"><div class="fillScore" id="aFill"></div></div>
+        <div class="circle" id="aKey" style="margin-left: 5%; opacity: 0;">🅰️</div>
+        <div class="scoreNum" id="aScoreNum" style="margin-left: 14%; opacity: 0;">0</div>
+    </div>
+    
+    <div class="hud" style="margin-left: 20%;">
+        <div class="score" style="margin-left: 20%; opacity: 0;" id="upScore"><div class="fillScore" id="upFill"></div></div>
+        <div class="circle" id="upKey" style="opacity: 0;">⬆️</div>
+        <div class="scoreNum" id="upScoreNum" style="margin-left: 20%; opacity: 0;">0</div>
+    </div>
+
+    <audio src="click.mp3" id="click1"></audio>
+    <audio src="click.mp3" id="click2"></audio>
+    <audio src="victory.mp3" id="victory"></audio>
+    <script src="app.js"></script>
+</body>
+</html>

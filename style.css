@@ -1,0 +1,75 @@
+body {
+    background-color: beige;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.hud{
+    display: inline-block;
+    width: 30%;
+}
+
+
+.circle {
+    height: 300px;
+    width: 450px;
+    border-radius: 50%;
+
+    margin-left: 40px;
+    margin-top: 3%;
+
+    text-align: center;
+    padding-top: 150px;
+
+    font-size: 100px;
+}
+
+#upKey {
+    background-color: #00c3ff;
+}
+
+#aKey {
+    background-color: #ffb429;
+}
+
+.score {
+    text-align: center;
+    font-size: 75px;
+    width: 100%;
+    height: 100px;
+    border: 2px black solid;
+}
+
+.scoreNum {
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+}
+
+.fillScore {
+    width: 0%;
+    height: 100%;
+}
+
+#upFill {
+    float: right;
+    background-color: #0000ff;
+}
+
+#aFill {
+    background-color: #ff1900;
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
